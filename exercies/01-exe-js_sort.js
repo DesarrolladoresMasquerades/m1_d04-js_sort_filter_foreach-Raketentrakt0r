@@ -6,6 +6,8 @@ const arrOfStrings = ['cat', 'wolf', 'yo', 'animal'];
 
 const longestStr = (arr) => {
    //your code...
+      const   
+   
 }
 
 let longestStrings = longestStr(arrOfStrings)
@@ -16,7 +18,7 @@ console.log(longestStrings)
 //Exercise 2: Using the same arr (arrOfStrings), sort its elements alphabetically.
 // DU NOT mutate the original array
 
-const arrOfStrings = ['cat', 'wolf', 'yo', 'animal'];
+//noconst arrOfStrings = ['cat', 'wolf', 'yo', 'animal'];
 
 const sortedStr = (arr) => {
    //your code...
