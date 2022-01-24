@@ -6,6 +6,18 @@ const arrOfStrings = ['cat', 'wolf', 'yo', 'animal'];
 
 const longestStr = (arr) => {
    //your code...
+    arr.filter((a,b) => {
+       if (a === b){
+          return 0
+       }
+       if (a < b){
+          return -1
+       }
+       return 1
+    })
+
+    console.log(longestStr);
+   
 }
 
 let longestStrings = longestStr(arrOfStrings)
@@ -16,14 +28,23 @@ console.log(longestStrings)
 //Exercise 2: Using the same arr (arrOfStrings), sort its elements alphabetically.
 // DU NOT mutate the original array
 
-const arrOfStrings = ['cat', 'wolf', 'yo', 'animal'];
+//noconst arrOfStrings = ['cat', 'wolf', 'yo', 'animal'];
 
 const sortedStr = (arr) => {
    //your code...
+   arrOfStrings.sort((a,b) =>{
+      if(a === b){
+         return 0
+      }
+      if (a < b){
+         return -1
+      }
+      return 1
+   })
 }
 
 let sortedStrings = sortedStr(arrOfStrings)
-console.log(sortedStrings)
+console.log(arrOfStrings)
 
 //ANSWER should be  ['animal', 'cat', 'wolf', 'yo']
 
@@ -40,12 +61,20 @@ const people = [
   { name: 'Bill', age: 19 }
 ];
 
-const sortByAge = (arr) => {
-   //your code...
-}
 
-let output = sortByAge(people)
-console.log(output)
+   //your code...
+   people.sort((a,b) => {
+      if(a.age > b.age){
+         return 1
+      }
+      if (a.age < b.age){
+         return -1
+      }
+      return 0
+   })
+
+
+console.log(people)
  
 /* ANSWER should be
  [
