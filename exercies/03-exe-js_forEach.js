@@ -9,6 +9,9 @@ let students = [
 ]
 
 //EXERCISE 1: print the name of each student
+students.forEach(function(value){
+  console.log(value.name)
+})
 
 /* Answer should be 
    Rafa
@@ -18,7 +21,12 @@ let students = [
 */
 
 //EXERCISE 2: print the color of each student that has more than 20 candy's
-
+students.forEach(function(value){
+  if(value.candy > 20){
+    console.log(value.color)
+  }
+ 
+})
 
 /* Answer should be
   Pink

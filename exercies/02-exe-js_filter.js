@@ -45,6 +45,7 @@ console.log(canConsume)
 // might need to use a .map() here later at some point
 // might also need to use another array method here which we haven't seen. Google it!, Again its a "MIGHT"
 
+/*
 const people = [
   { name: "Candice", age: 25 },
   { name: "Tammy", age: 30 },
@@ -65,3 +66,4 @@ let canConsumeTwo = (adults)
 console.log(canConsumeTwo) 
 //Answer should be ['Candice', 'Tammy']
 
+*/
